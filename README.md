@@ -59,11 +59,12 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 
 ### Docker commands
+<ol>
 <li>Find out which users are in the docker group and allowed to start docker containers.</li>
  <ol>
     <li><strong>$ getent group sudo</strong></li>
     <li><strong>$ getent group docker</strong></li>
-</ol>
+ </ol>
 
 <li><strong>'pull'</strong> command fetche the <strong>'name_of_images'</strong> image from the <strong>'Docker registry'</strong> and saves it to our system.</br>
 <li><strong>$ docker pull busybox</strong> (busybox is name of image)</li></li>
@@ -77,9 +78,9 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <li>Now Docker client  ran the 'echo' command in our busybox container and then exited it.</br>
 <li><strong>$docker run busybox echo "hello from busybox"</strong></li></li>
 
-<li>Command to shows you all containers that are currently running.
-<li>docker ps</li></li>
+<li>Command to shows you all containers that are currently running.</br>
+<li><strong>$ docker ps</strong></li></li>
 
-<li>list of all containers that we ran. Do notice that the STATUS column shows that these containers exited a few minutes ago.
-<li>docker ps -a</li></li>
+<li>list of all containers that we ran. Do notice that the <strong>STATUS</strong> column shows that these containers exited a few minutes ago.</br>
+<li><strong>$ docker ps -a</strong></li></li>
 </ol>
