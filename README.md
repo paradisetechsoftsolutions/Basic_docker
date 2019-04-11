@@ -53,8 +53,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
      
 <li>Add a <strong>'USER'</strong> into the docker group after that we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command</li>   
 
-<li>command to uninstall docker</li>
-<li>To uninstall docker </br> 
+<li>Command to uninstall docker</li></br> 
    $ sudo apt-get remove docker docker-engine docker.io containerd runc
 </li>
 </ol>
