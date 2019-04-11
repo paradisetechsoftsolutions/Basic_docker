@@ -87,19 +87,19 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 ### Remove images and containers
 <ol>
-<li>docker rm command. Just copy the container IDs from above and paste them alongside the command.</br>
+<li>docker rm command. Just copy the container IDs.</br>
  <strong>$ docker rm ed1e38efb51a (container_id)</strong></li></br>
 
-<li>command deletes all containers that have a status of exited</br>
+<li>Command to deletes all containers that have a status of exited.</br>
 <strong>$ docker rm $(docker ps -a -q -f status=exited)</strong></br></br>
 -q flag, only returns the numeric IDs and -f filters output based on conditions provided.</li></br>
 
-<li>Command to delete all container</br>
+<li>Command to delete all container.</br>
 <strong>$ docker container prune</strong></li></br>
 
-<li>Command to delete all images</br>
+<li>Command to delete all images.</br>
 <strong>$ docker images prune -a</strong></li></br>
 
-<li>Command to delete all container and images </br>
+<li>Command to delete all container and images. </br>
 <strong>$ docker system prune -a</strong></li></br>
 </ol>
