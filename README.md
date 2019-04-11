@@ -34,8 +34,8 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li>Now check the staus of docker.</br>
     <strong>$ sudo systemctl status docker</strong> </li></br>  
     
-    ![status png](https://user-images.githubusercontent.com/47202519/55958790-1427be00-5c87-11e9-9f3e-377775afee6c.png)
-    
+    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
+
  </ol> 
  </ol>
  
