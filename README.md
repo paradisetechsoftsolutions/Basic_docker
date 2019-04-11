@@ -89,7 +89,6 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 <li>list of all containers that we ran. Do notice that the <strong>STATUS</strong> column shows that these containers exited a few minutes ago.</br>
 <strong>$ docker ps -a</strong></li></br>
-</ol>
 
 <li>To start Container<br>
 <strong>$ docker start (container id)</strong></li></br>
@@ -99,7 +98,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 <li>To stop container</br>
 <strong>$ docker stop (container id)</strong></li></br>
-
+</ol>
 
 ### Remove images and containers
 <ol>
