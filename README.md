@@ -43,7 +43,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
       <li><strong>$ sudo gpasswd -a $USER name_of_your_system</strong></li>
       <li><strong>$ newgrp docker</strong></li>
   </ol>
-     now we can run docker commands without 'sudo'</li></ol>
+     now we can run docker commands without 'sudo'</li>
 <li>Second way to add user in docker group</li>
   <ol>
       <li><strong>$ sudo groupadd docker</strong></li>
@@ -57,7 +57,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
    $ sudo apt-get remove docker docker-engine docker.io containerd runc
    </li>
 </ol>
-</ol>
+
 
 ## Docker commands
 <li>find out which users are in the docker group and allowed to start docker containers</li>
