@@ -23,7 +23,6 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li>To check the version of operating system.</br>
     <strong>$ lsb_release -a</strong></li></br>  
     
-![lsb](https://user-images.githubusercontent.com/47202519/55958568-9bc0fd00-5c86-11e9-8707-25daa20fded7.png)
  
 <li>Up    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
 38
@@ -36,6 +35,7 @@ date the apt package index.</br>
 <li>Now check the staus of docker.</br>
     <strong>$ sudo systemctl status docker</strong> </li></br>  
 ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
+38
 
     
  </ol> 
