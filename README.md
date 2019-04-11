@@ -60,6 +60,12 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 ### Docker commands
 <ol>
+<li>To check Docker version </br>
+<strong>$ docker --version</strong></li></br>
+
+<li>To check Docker and containers info</br>
+<strong>$ docker info</strong></li></br>
+
 <li>Find out which users are in the docker group and allowed to start docker containers.</li>
  <ol>
     <li><strong>$ getent group sudo</strong></li>
@@ -85,6 +91,16 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <strong>$ docker ps -a</strong></li></br>
 </ol>
 
+<li>To start Container<br>
+<strong>$ docker start (container id)</strong></li></br>
+
+<li>To login in Container<br>
+<strong>$ docker attach (container id)</strong></li></br>
+
+<li>To stop container</br>
+<strong>$ docker stop (container id)</strong></li></br>
+
+
 ### Remove images and containers
 <ol>
 <li>docker rm command. Just copy the container IDs.</br>
@@ -92,7 +108,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 <li>Command to deletes all containers that have a status of exited.</br>
 -q flag, only returns the numeric IDs and -f filters output based on conditions provided.</br>
-<strong>$ docker rm $(docker ps -a -q -f status=exited)</strong></li></br>
+<strong>$ docker rm $(docker ps -a -q -f s<strong>tatus=exited)</strong></li></br>
 
 <li>Command to delete all container.</br>
 <strong>$ docker container prune</strong></li></br>
