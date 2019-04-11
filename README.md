@@ -63,7 +63,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <ol>
 <li>To check Docker version </br>
 <strong>$ docker --version</strong></li></br>
-<strong>
+
 <li>To check Docker and containers info</br>
 <strong>$ docker info</strong></li></br>
 
