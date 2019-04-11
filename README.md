@@ -84,3 +84,22 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <li>list of all containers that we ran. Do notice that the <strong>STATUS</strong> column shows that these containers exited a few minutes ago.</br>
 <strong>$ docker ps -a</strong></li></br>
 </ol>
+
+### Remove images and containers
+<ol>
+<li>docker rm command. Just copy the container IDs from above and paste them alongside the command.</br>
+ <strong>$ docker rm ed1e38efb51a (container_id)</strong></li></br>
+
+<li>command deletes all containers that have a status of exited</br>
+<strong>$ docker rm $(docker ps -a -q -f status=exited)</strong></br>
+-q flag, only returns the numeric IDs and -f filters output based on conditions provided. One last thing that'll be useful is the --rm flag that can be passed to docker run which automatically deletes the container once it's exited from.</li></br>
+
+<li>Command to delete all container</br>
+<strong>$ docker container prune</strong></li></br>
+
+<li>Command to delete all images</br>
+<strong>$ docker images prune -a</strong></li></br>
+
+<li>Command to delete all container and images </br>
+<strong>$ docker system prune -a</strong></li></br>
+</ol>
