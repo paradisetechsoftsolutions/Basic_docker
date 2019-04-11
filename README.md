@@ -44,7 +44,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
       <li><strong>$ newgrp docker</strong></li>
   </ol>
      now we can run docker commands without 'sudo'</li></ol>
-<li>Second way to add user in docker group</br>
+<li>Second way to add user in docker group</li>
   <ol>
       <li><strong>$ sudo groupadd docker</strong></li>
       <li><strong>$ sudo usermod -aG paradise $USER name_of_your_system</strong></li>
