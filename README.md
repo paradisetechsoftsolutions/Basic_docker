@@ -41,7 +41,13 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
       <li>sudo gpasswd -a $USER name_of_your_system</li>
       <li>newgrp docker</li>
   </ol>
-     now we can run docker commands without 'sudo' but it is temporary</li></ol>
+     now we can run docker commands without 'sudo' but, it is temporary</li></ol>
+<li>Second way to add user in docker group</br>
+  <ol>
+      <li>sudo groupadd docker</li>
+      <li>sudo usermod -aG paradise $USER name_of_your_system</li>
+  </ol>
+     now we can run docker commands without 'sudo' but, it is temporary</li></ol>    
 <li>command to uninstall docker</li>
  <ol>
 <li>To uninstall docker  $ sudo apt-get remove docker docker-engine docker.io containerd runc</li>
