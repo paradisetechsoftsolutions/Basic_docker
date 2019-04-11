@@ -49,13 +49,14 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
       <li><strong>$ sudo groupadd docker</strong></li>
       <li><strong>$ sudo usermod -aG paradise $USER name_of_your_system</strong></li>
   </ol>
-     now we can run docker commands without <strong>'sudo'</strong></li></ol> 
-<li>Add a <strong>'USER'</strong> into the docker group after that we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command</li>     
+     now we can run docker commands without <strong>'sudo'</strong></li>
+     
+<li>Add a <strong>'USER'</strong> into the docker group after that we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command</li>   
+
 <li>command to uninstall docker</li>
-<ol>
 <li>To uninstall docker </br> 
    $ sudo apt-get remove docker docker-engine docker.io containerd runc
-   </li>
+</li>
 </ol>
 
 
