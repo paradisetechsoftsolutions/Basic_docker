@@ -73,7 +73,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
     <li><strong>$ getent group docker</strong></li>
  </ol>
 
-<li><strong>'pull'</strong> command fetche the <strong>'name_of_images'</strong> image from the <strong>'Docker registry'</strong> and saves it to our system.</br>
+<li><strong>'pull'</strong> command fetch the <strong>'name_of_images'</strong> image from the <strong>'Docker registry'</strong> and saves it to our system.</br>
 <strong>$ docker pull busybox</strong> (busybox is name of image)</li></br>
 
 <li>You can use the <strong>'docker images'</strong> command to see a list of all images on your system.</br>
