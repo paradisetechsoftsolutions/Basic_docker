@@ -48,7 +48,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <li>Second way to add user in docker group.</li>
   <ol>
       <li><strong>$ sudo groupadd docker</strong></li>
-      <li><strong>$ sudo usermod -aG  $USER </strong></li>
+      <li><strong>$ sudo usermod -aG docker $USER </strong></li>
   </ol></br>
         
 <li>After adding a <strong>'USER'</strong> into the docker group, we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command.</li></br>  
