@@ -91,8 +91,8 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
  <strong>$ docker rm ed1e38efb51a (container_id)</strong></li></br>
 
 <li>Command to deletes all containers that have a status of exited.</br>
-<strong>$ docker rm $(docker ps -a -q -f status=exited)</strong></br></br>
--q flag, only returns the numeric IDs and -f filters output based on conditions provided.</li></br>
+-q flag, only returns the numeric IDs and -f filters output based on conditions provided</br>
+<strong>$ docker rm $(docker ps -a -q -f status=exited)</strong></li></br>
 
 <li>Command to delete all container.</br>
 <strong>$ docker container prune</strong></li></br>
