@@ -2,13 +2,13 @@
 ## What is docker 
 <ol>
 <li>
-<strong>Docker</strong> is a computer program which used to provide a running environment to run all kind of application those are in docker hub, or we create in docker.</br>
-It creates an image of your application in and stores all requirement of files into the container. Whenever we want to run docker application in any system, we have to run a single file without providing any other requirement.</li></br>
+<strong>Docker</strong> is a computer program which used to provide a running environment to run all kinds of application those are in docker hub, or we create in docker.</br>
+It creates an image of your application and stores all requirements of files into the container. Whenever we want to run docker application in any system, we have to run a single file without providing any other requirements.</li></br>
 <li><strong>Docker</strong> is easy to use in <strong>Ubuntu</strong>. It also supports <strong>Window</strong> and <strong>Mac</strong> operating system.</br>
 For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong> only. To use in <strong>Windows7/8/8.1</strong> or <strong>Windows10 home</strong> should use docker toolbox.</li></br>
 <li>There are two kind of docker software for programmers.</li>
 <ol>
-<li><strong>Docker CE</strong> :- <strong>Free community edition</strong> :- This is a open source software. </li>
+<li><strong>Docker CE</strong> :- <strong>Free community edition</strong> :- This is an open source software. </li>
 <li><strong>Docker EE</strong> :- <strong>Docker Enterprise Edition</strong> :- This is a paid software design for enterprise development and IT teams who build, ship, and run business-critical applications in production. </li></br>
 </ol>
 </ol>
@@ -37,17 +37,19 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <ol>
 <li><strong>Why sudo :-</strong> </br>
 We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'</strong> we have to join the docker group, when your system join docker group after that we can  run docker command without <strong>sudo</strong>.</li></br>
-<li><strong>'USER'</strong> is your system name, command to add user. </li>
+<li><strong>'USER'</strong> is your system name, command to add user. </br>
+<strong>$user</strong> will pick system user</li>
+
   <ol>
       <li><strong>$ sudo groupadd docker</strong></li>
-      <li><strong>$ sudo gpasswd -a $USER name_of_your_system</strong></li>
+      <li><strong>$ sudo gpasswd -a $USER </strong></li>
       <li><strong>$ newgrp docker</strong></li>
-  </ol></br>
+  </ol></br><strong>
     
 <li>Second way to add user in docker group.</li>
   <ol>
       <li><strong>$ sudo groupadd docker</strong></li>
-      <li><strong>$ sudo usermod -aG paradise $USER name_of_your_system</strong></li>
+      <li><strong>$ sudo usermod -aG  $USER </strong></li>
   </ol></br>
         
 <li>After adding a <strong>'USER'</strong> into the docker group, we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command.</li></br>  
