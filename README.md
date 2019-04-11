@@ -32,7 +32,12 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li>If docker is not in your system then install it. </br>
     <strong>$ sudo apt-get install docker.io</strong></li></br>
 <li>Now check the staus of docker.</br>
-    <strong>$ sudo systemctl status docker</strong> </li></br>
+    <strong>$ sudo systemctl status docker</strong> </li></br>  
+    
+    
+     ![status png](https://user-images.githubusercontent.com/47202519/55958790-1427be00-5c87-11e9-9f3e-377775afee6c.png)
+     
+     
  </ol> 
  </ol>
  
