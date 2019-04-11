@@ -39,12 +39,11 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'</strong> we have to join the docker group, when your system join docker group after that we can  run docker command without <strong>sudo</strong>.</li></br>
 <li><strong>'USER'</strong> is your system name, command to add user. </br>
 <strong>$user</strong> will pick system user</li>
-
   <ol>
       <li><strong>$ sudo groupadd docker</strong></li>
       <li><strong>$ sudo gpasswd -a $USER </strong></li>
       <li><strong>$ newgrp docker</strong></li>
-  </ol></br><strong>
+  </ol></br>
     
 <li>Second way to add user in docker group.</li>
   <ol>
@@ -64,7 +63,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <ol>
 <li>To check Docker version </br>
 <strong>$ docker --version</strong></li></br>
-
+<strong>
 <li>To check Docker and containers info</br>
 <strong>$ docker info</strong></li></br>
 
