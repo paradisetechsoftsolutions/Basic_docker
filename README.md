@@ -5,14 +5,13 @@
 <strong>Docker</strong> is a computer program which used to provide a running environment to run all kind of application those are in docker hub, or we create in docker.</br>
 It creates an image of your application in and stores all requirement of files into the container. Whenever we want to run docker application in any system, we have to run a single file without providing any other requirement.</li>
 <li><strong>Docker</strong> is easy to use in <strong>Ubuntu</strong>. It also supports <strong>Window</strong> and <strong>Mac</strong> operating system.</br>
-for the window, it runs in windows 10/enterprise only. To use in Windows 7/8/8.1 or windows10 home should use docker toolbox.</li>
-
+For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong> only. To use in <strong>Windows7/8/8.1</strong> or <strong>Windows10 home</strong> should use docker toolbox.</li>
 <li>There are two kind of docker software for programmers</li>
- <ol>
-<li>Docker CE :- Free community edition :- this is a open source software </li>
-<li>Docker EE :- Docker Enterprise Edition :- This is a paid software design for enterprise development and IT teams who build, ship, and run business-critical applications in production </li>
- </ol>
- 
+<ol>
+<li><strong>Docker CE</strong> :- <strong>Free community edition</strong> :- This is a open source software </li>
+<li><strong>Docker EE</strong> :- <strong>Docker Enterprise Edition</strong> :- This is a paid software design for enterprise development and IT teams who build, ship, and run business-critical applications in production </li>
+</ol>
+</ol>
 ## Steps to install docker
 <li>Steps to download docker in ubuntu</li>
  <ol>
