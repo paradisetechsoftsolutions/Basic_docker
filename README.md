@@ -31,26 +31,32 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
     <strong>$ sudo apt-get install docker.io</strong></li>
 <li>Now check the staus of docker </br>
     <strong>$ sudo systemctl status docker</strong> </li>
- </ol>  
+ </ol> 
+ </ol>
  
+## Steps to add user in docker
+<ol>
 <li><strong>Why sudo :-</strong> </br>
 We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'</strong> we have to join the docker group, when your system join docker group after that we can  run docker command without <strong>sudo</strong></li>
-<li><strong>'user'</strong> is your system name, command to add user </br>
+<li><strong>'USER'</strong> is your system name, command to add user </br>
   <ol>
-      <li>sudo groupadd docker</li>
-      <li>sudo gpasswd -a $USER name_of_your_system</li>
-      <li>newgrp docker</li>
+      <li><strong>$ sudo groupadd docker</strong></li>
+      <li><strong>$ sudo gpasswd -a $USER name_of_your_system</strong></li>
+      <li><strong>$ newgrp docker</strong></li>
   </ol>
-     now we can run docker commands without 'sudo' but, it is temporary</li></ol>
+     now we can run docker commands without 'sudo'</li></ol>
 <li>Second way to add user in docker group</br>
   <ol>
-      <li>sudo groupadd docker</li>
-      <li>sudo usermod -aG paradise $USER name_of_your_system</li>
+      <li><strong>$ sudo groupadd docker</strong></li>
+      <li><strong>$ sudo usermod -aG paradise $USER name_of_your_system</strong></li>
   </ol>
-     now we can run docker commands without 'sudo' but, it is temporary</li></ol>    
+     now we can run docker commands without <strong>'sudo'</strong></li></ol> 
+<li>Add a <strong>'USER'</strong> into the docker group after that we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command</li>     
 <li>command to uninstall docker</li>
- <ol>
-<li>To uninstall docker  $ sudo apt-get remove docker docker-engine docker.io containerd runc</li>
+<ol>
+<li>To uninstall docker </br> 
+   $ sudo apt-get remove docker docker-engine docker.io containerd runc
+   </li>
 </ol>
 </ol>
 
