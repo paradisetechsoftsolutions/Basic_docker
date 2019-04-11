@@ -67,20 +67,20 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
  </ol>
 
 <li><strong>'pull'</strong> command fetche the <strong>'name_of_images'</strong> image from the <strong>'Docker registry'</strong> and saves it to our system.</br>
-<li><strong>$ docker pull busybox</strong> (busybox is name of image)</li></li>
+<strong>$ docker pull busybox</strong> (busybox is name of image)</li></br>
 
 <li>You can use the <strong>'docker images'</strong> command to see a list of all images on your system.</br>
-<li><strong>$ docker images</strong></li></li>
+<strong>$ docker images</strong></li></br>
 
 <li>Now run a Docker container based on this image. When you call run, the Docker client finds the image (busybox in this case), loads up the container and then runs a command in that container.</br> 
-<li><strong>$ docker run busybox</strong></li></li>
+<strong>$ docker run busybox</strong></li></br>
 
 <li>Now Docker client  ran the 'echo' command in our busybox container and then exited it.</br>
-<li><strong>$docker run busybox echo "hello from busybox"</strong></li></li>
+<strong>$docker run busybox echo "hello from busybox"</strong></li></br>
 
 <li>Command to shows you all containers that are currently running.</br>
-<li><strong>$ docker ps</strong></li></li>
+<strong>$ docker ps</strong></li></br>
 
 <li>list of all containers that we ran. Do notice that the <strong>STATUS</strong> column shows that these containers exited a few minutes ago.</br>
-<li><strong>$ docker ps -a</strong></li></li>
+<strong>$ docker ps -a</strong></li></br>
 </ol>
