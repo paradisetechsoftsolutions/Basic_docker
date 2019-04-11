@@ -15,29 +15,33 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 
 ## Steps to install docker
 <ol>
-<li>Steps to download docker in ubuntu</li>
+<li><strong>Steps to download docker in ubuntu</strong></li>
 <ol>
 <li>Open terminal and follow these command to install docker.</li>
 <ol>
 <li>Just type 'docker' and check if docker is  in your system or not</br> 
-    $ docker</li>
+    <strong>$ docker</strong></li> 
 <li>To check the version of operating system</br>
-    $ lsb_release -a </li>
+    <strong>$ lsb_release -a</strong> </li>
 <li>Update the apt package index.</br>
-    $ sudo apt-get update</li>
+    <strong>$ sudo apt-get update</strong></li>
 <li>If require then install </br>
-    $ sudo apt-get install </li>
+    <strong>$ sudo apt-get install </strong></li>
 <li>If docker is not in your system then install it </br>
-    $ sudo apt-get install docker.io</li>
+    <strong>$ sudo apt-get install docker.io</strong></li>
 <li>Now check the staus of docker </br>
-    $ sudo systemctl status docker </li>
- </ol>   
-<li>why sudo :we have to use 'sudo' command to run docker commands because docker container run  user 'root' we have to join the docker group when your system join docker group after that we can  run docker command without sudo</li>
-<li>'user' is your system name just type user it will pick your system name , command to add user 
-  <ol><li>sudo groupadd docker</li>
+    <strong>$ sudo systemctl status docker</strong> </li>
+ </ol>  
+ 
+<li><strong>Why sudo :-</strong> </br>
+We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'</strong> we have to join the docker group, when your system join docker group after that we can  run docker command without <strong>sudo</strong></li>
+<li><strong>'user'</strong> is your system name, command to add user </br>
+  <ol>
+      <li>sudo groupadd docker</li>
       <li>sudo gpasswd -a $USER name_of_your_system</li>
-      <li>newgrp docker</li></ol>
-     now we can run docker commands without 'sudo' but it is temporary</li></ol
+      <li>newgrp docker</li>
+  </ol>
+     now we can run docker commands without 'sudo' but it is temporary</li></ol>
 <li>command to uninstall docker</li>
  <ol>
 <li>To uninstall docker  $ sudo apt-get remove docker docker-engine docker.io containerd runc</li>
