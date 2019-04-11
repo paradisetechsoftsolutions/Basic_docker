@@ -14,7 +14,6 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 </ol>
 
 ## Steps to install docker
-<ol>
 <li><strong>Steps to download docker in ubuntu</strong></li>
 <ol>
 <li>Open terminal and follow these command to install docker.</li>
