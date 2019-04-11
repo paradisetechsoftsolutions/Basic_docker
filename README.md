@@ -22,11 +22,16 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li>Just type 'docker' and check if docker is  in your system or not</br> 
     $ docker</li>
 <li>To check the version of operating system</br>
-$ lsb_release -a </li>
-<li>Update the apt package index. $ sudo apt-get update</li>
-<li>If require then install :- $ sudo apt-get install </li>
-<li>If docker is not in your system then install it  $ sudo apt-get install docker.io</li>
-<li>Now check the staus of docker $  sudo systemctl status docker </li>
+    $ lsb_release -a </li>
+<li>Update the apt package index.</br>
+    $ sudo apt-get update</li>
+<li>If require then install </br>
+    $ sudo apt-get install </li>
+<li>If docker is not in your system then install it </br>
+    $ sudo apt-get install docker.io</li>
+<li>Now check the staus of docker </br>
+    $ sudo systemctl status docker </li>
+ </ol>   
 <li>why sudo :we have to use 'sudo' command to run docker commands because docker container run  user 'root' we have to join the docker group when your system join docker group after that we can  run docker command without sudo</li>
 <li>'user' is your system name just type user it will pick your system name , command to add user 
   <ol><li>sudo groupadd docker</li>
