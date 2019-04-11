@@ -12,13 +12,17 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li><strong>Docker EE</strong> :- <strong>Docker Enterprise Edition</strong> :- This is a paid software design for enterprise development and IT teams who build, ship, and run business-critical applications in production </li>
 </ol>
 </ol>
+
 ## Steps to install docker
+<ol>
 <li>Steps to download docker in ubuntu</li>
- <ol>
-<li>OPEN TERMINAL AND Follow these command to install docker</li>
-  <ol>
-<li>Just type 'docker' and check if docker is  in your system or not  $ docker</li>
-<li>lsb_release -a (check ubuntu version)</li>
+<ol>
+<li>Open terminal and follow these command to install docker.</li>
+<ol>
+<li>Just type 'docker' and check if docker is  in your system or not</br> 
+    $ docker</li>
+<li>To check the version of operating system</br>
+$ lsb_release -a </li>
 <li>Update the apt package index. $ sudo apt-get update</li>
 <li>If require then install :- $ sudo apt-get install </li>
 <li>If docker is not in your system then install it  $ sudo apt-get install docker.io</li>
@@ -35,7 +39,7 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 </ol>
 </ol>
 
-
+## Docker commands
 <li>find out which users are in the docker group and allowed to start docker containers</li>
  <ol><li>getent group sudo</li>
      <li>getent group docker</li></ol>
