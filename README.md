@@ -21,7 +21,10 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li>Just type 'docker' and check if docker is  in your system or not.</br> 
     <strong>$ docker</strong></li> </br>
 <li>To check the version of operating system.</br>
-   <li> <strong>$ lsb_release -a</strong></li></br>  
+   <li> <strong>$ lsb_release -a</strong></li></br> 
+   
+   ![lsb](https://user-images.githubusercontent.com/47202519/56012407-fd767b00-5d09-11e9-89aa-275c02857584.png)
+
  
 <li>update the apt package index.</br>
     <strong>$ sudo apt-get update</strong></li></br>
