@@ -95,28 +95,41 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 
 <li>You can use the <strong>'docker images'</strong> command to see a list of all images on your system.</br>
-<strong>$ docker images</strong></li></br>
+<strong>$ docker images</strong></li></br>  
+
+![d_img](https://user-images.githubusercontent.com/47202519/56013130-f9982800-5d0c-11e9-85a2-5ac28156deb0.png)
 
 <li>Now run a Docker container based on this image. When you call run, the Docker client finds the image (busybox in this case), loads up the container and then runs a command in that container.</br> 
 <strong>$ docker run busybox</strong></li></br>
 
 <li>Now Docker client  ran the 'echo' command in our busybox container and then exited it.</br>
-<strong>$docker run busybox echo "hello from busybox"</strong></li></br>
+<strong>$docker run busybox echo "hello from busybox"</strong></li></br>  
+
+![echo](https://user-images.githubusercontent.com/47202519/56013136-03219000-5d0d-11e9-9c96-1077fc214120.png)
 
 <li>Command to shows you all containers that are currently running.</br>
-<strong>$ docker ps</strong></li></br>
+<strong>$ docker ps</strong></li></br>  
+
+![ps](https://user-images.githubusercontent.com/47202519/56013147-0ae13480-5d0d-11e9-83a4-33e6856239a7.png)
 
 <li>list of all containers that we ran. Do notice that the <strong>STATUS</strong> column shows that these containers exited a few minutes ago.</br>
-<strong>$ docker ps -a</strong></li></br>
+<strong>$ docker ps -a</strong></li></br>  
+
+![ps-a](https://user-images.githubusercontent.com/47202519/56013152-0ddc2500-5d0d-11e9-969c-07e0ba4c9bcf.png)
 
 <li>To start Container<br>
-<strong>$ docker start (container id)</strong></li></br>
+<strong>$ docker start (container id)</strong></li></br> 
+
+![start](https://user-images.githubusercontent.com/47202519/56013161-19c7e700-5d0d-11e9-8325-d615d50f8d20.png)
 
 <li>To login in Container<br>
 <strong>$ docker attach (container id)</strong></li></br>
 
 <li>To stop container</br>
 <strong>$ docker stop (container id)</strong></li></br>
+
+![stop](https://user-images.githubusercontent.com/47202519/56013171-251b1280-5d0d-11e9-9c0a-d8d20e147ce0.png)
+
 </ol>
   
 
