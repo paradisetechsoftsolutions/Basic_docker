@@ -12,6 +12,11 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li><strong>Docker EE</strong> :- <strong>Docker Enterprise Edition</strong> :- This is a paid software design for enterprise development and IT teams who build, ship, and run business-critical applications in production. </li></br>
 </ol>
 </ol>
+## Requirements :-
+<ol>
+<li>Operating system (ubuntu)</li>
+<li>Docker</li>
+</ol>
 
 ## Steps to install docker
 <li><strong>Steps to download docker in ubuntu.</strong></li>
