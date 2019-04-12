@@ -22,11 +22,8 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
     <strong>$ docker</strong></li> </br>
 <li>To check the version of operating system.</br>
    <li> <strong>$ lsb_release -a</strong></li></br>  
-    
  
-Up    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
-38
-date the apt package index.</br>
+<li>update the apt package index.</br>
     <strong>$ sudo apt-get update</strong></li></br>
 <li>If require then install. </br>
     <strong>$ sudo apt-get install </strong></li></br>
@@ -34,10 +31,6 @@ date the apt package index.</br>
     <strong>$ sudo apt-get install docker.io</strong></li></br>
 <li>Now check the staus of docker.</br>
     <strong>$ sudo systemctl status docker</strong> </li></br>  
-up    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
-38
-
-    
  </ol> 
  </ol>
  
