@@ -12,6 +12,7 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li><strong>Docker EE</strong> :- <strong>Docker Enterprise Edition</strong> :- This is a paid software design for enterprise development and IT teams who build, ship, and run business-critical applications in production. </li></br>
 </ol>
 </ol>
+
 ## Requirements :-
 <ol>
 <li>Operating system (ubuntu)</li>
@@ -63,7 +64,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
       <li><strong>$ sudo usermod -aG docker $USER </strong></li>
   </ol></br>
         
-<li>After adding a <strong>'USER'</strong> into the docker group, we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command.</li></br>  
+<li>After adding a <Operating system (ubuntu)strong>'USER'</strong> into the docker group, we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command.</li></br>  
 
 <li>Command to uninstall docker.</li>
    <strong>$ sudo apt-get remove docker docker-engine docker.io containerd runc</strong></br>
