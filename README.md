@@ -152,15 +152,15 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 ![c_purne](https://user-images.githubusercontent.com/47202519/56014072-5695dd00-5d11-11e9-9439-4b44f3c40306.png)
 
 <li>Command to delete all images.</li>
-<li><strong>$ docker images prune -a</strong></li></br> 
+<strong>$ docker images prune -a</strong></br> 
 
-![img_prune3](https://user-images.githubusercontent.com/47202519/56014105-7927f600-5d11-11e9-97fb-bc0cd86a0a18.png)</li>
+![img_prune3](https://user-images.githubusercontent.com/47202519/56014105-7927f600-5d11-11e9-97fb-bc0cd86a0a18.png)
 
-<li><strong>$ docker images -q</strong></br>  
+<strong>$ docker images -q</strong></br>  
 
-![img_prune2](https://user-images.githubusercontent.com/47202519/56014120-7e854080-5d11-11e9-9f38-8a0184d8de28.png)</li>
+![img_prune2](https://user-images.githubusercontent.com/47202519/56014120-7e854080-5d11-11e9-9f38-8a0184d8de28.png)
 
-<li><strong>$ docker images prune </strong></li></br>  
+<strong>$ docker images prune </strong></br>  
 
 ![img_prune](https://user-images.githubusercontent.com/47202519/56014138-9230a700-5d11-11e9-8a1f-fac8eb0eb692.png)
 
