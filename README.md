@@ -34,7 +34,6 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
     <strong>$ sudo apt-get install docker.io</strong></li></br>
 <li>Now check the staus of docker.</br>
     <strong>$ sudo systemctl status docker</strong> </li></br>   
-    
     ![status](https://user-images.githubusercontent.com/47202519/56012484-58a86d80-5d0a-11e9-914b-6b65463ee5e8.png)
 
  </ol> 
