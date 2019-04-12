@@ -69,19 +69,30 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 ### Docker commands
 <ol>
 <li>To check Docker version </br>
-<strong>$ docker --version</strong></li></br>
+<strong>$ docker --version</strong></li></br>  
+
+![version](https://user-images.githubusercontent.com/47202519/56012976-6c54d380-5d0c-11e9-84c2-31afabecfa5f.png)
 
 <li>To check Docker and containers info</br>
 <strong>$ docker info</strong></li></br>
 
 <li>Find out which users are in the docker group and allowed to start docker containers.</li>
  <ol>
-    <li><strong>$ getent group sudo</strong></li>
-    <li><strong>$ getent group docker</strong></li>
+    <li><strong>$ getent group sudo</strong></li>  
+    
+  ![sudo](https://user-images.githubusercontent.com/47202519/56012925-239d1a80-5d0c-11e9-99bc-97750baaae91.png)  
+    
+   <li><strong>$ getent group docker</strong></li>  
+   
+   ![docker](https://user-images.githubusercontent.com/47202519/56012934-2dbf1900-5d0c-11e9-8fca-840e6a032dcb.png)
+   
  </ol></br>
 
 <li><strong>'pull'</strong> command fetch the <strong>'name_of_images'</strong> image from the <strong>'Docker registry'</strong> and saves it to our system.</br>
-<strong>$ docker pull busybox</strong> (busybox is name of image)</li></br>
+<strong>$ docker pull busybox</strong> (busybox is name of image)</li></br> 
+
+![busybox](https://user-images.githubusercontent.com/47202519/56012945-3c0d3500-5d0c-11e9-8f78-c6314b28effa.png)
+
 
 <li>You can use the <strong>'docker images'</strong> command to see a list of all images on your system.</br>
 <strong>$ docker images</strong></li></br>
