@@ -164,10 +164,12 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 ![img_prune](https://user-images.githubusercontent.com/47202519/56014138-9230a700-5d11-11e9-8a1f-fac8eb0eb692.png)
 
-<li>Command to delete all container and images. </br>
 <strong>$ docker rmi image_id image_id...... </strong></li></br>  
 
 ![delt_img](https://user-images.githubusercontent.com/47202519/56014153-9bba0f00-5d11-11e9-804f-97509608c271.png)
+
+<li>Command to delete all container and images. </br>
+
 
 <strong>$ docker system prune -a</strong></li></br>  
 
