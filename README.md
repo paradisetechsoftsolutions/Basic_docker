@@ -21,10 +21,10 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 <li>Just type 'docker' and check if docker is  in your system or not.</br> 
     <strong>$ docker</strong></li> </br>
 <li>To check the version of operating system.</br>
-    <strong>$ lsb_release -a</strong></li></br>  
+   <li> <strong>$ lsb_release -a</strong></li></br>  
     
  
-<li>Up    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
+Up    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
 38
 date the apt package index.</br>
     <strong>$ sudo apt-get update</strong></li></br>
@@ -34,7 +34,7 @@ date the apt package index.</br>
     <strong>$ sudo apt-get install docker.io</strong></li></br>
 <li>Now check the staus of docker.</br>
     <strong>$ sudo systemctl status docker</strong> </li></br>  
-![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
+up    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
 38
 
     
@@ -88,9 +88,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <strong>$ docker images</strong></li></br>
 
 <li>Now run a Docker container based on this image. When you call run, the Docker client finds the image (busybox in this case), loads up the container and then runs a command in that container.</br> 
-<str    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
-38
-ong>$ docker run busybox</strong></li></br>
+<strong>$ docker run busybox</strong></li></br>
 
 <li>Now Docker client  ran the 'echo' command in our busybox container and then exited it.</br>
 <strong>$docker run busybox echo "hello from busybox"</strong></li></br>
@@ -110,8 +108,7 @@ ong>$ docker run busybox</strong></li></br>
 <li>To stop container</br>
 <strong>$ docker stop (container id)</strong></li></br>
 </ol>
-    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
-38
+  
 
 ### Remove images and containers
 <ol>
@@ -129,9 +126,5 @@ ong>$ docker run busybox</strong></li></br>
 <strong>$ docker images prune -a</strong></li></br>
 
 <li>Command to delete all container and images. </br>
-<strong    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
-38
->$ docker syste    ![status](https://user-images.githubusercontent.com/47202519/55959038-97491400-5c87-11e9-8752-6e806a804ef0.png)
-38
-m prune -a</strong></li></br>
+<strong>$ docker system prune -a</strong></li></br>
 </ol>
