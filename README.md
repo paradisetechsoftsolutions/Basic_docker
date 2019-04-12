@@ -136,18 +136,42 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 ### Remove images and containers
 <ol>
 <li>docker rm command. Just copy the container IDs.</br>
- <strong>$ docker rm ed1e38efb51a (container_id)</strong></li></br>
+ <strong>$ docker rm 419600f601f9 (container_id)</strong></li></br>  
+ 
+ ![rm](https://user-images.githubusercontent.com/47202519/56014043-3cf49580-5d11-11e9-9782-21aaf0961b01.png)
 
 <li>Command to deletes all containers that have a status of exited.</br>
 -q flag, only returns the numeric IDs and -f filters output based on conditions provided.</br>
-<strong>$ docker rm $(docker ps -a -q -f status=exited)</strong></li></br>
+<strong>$ docker rm $(docker ps -a -q -f status=exited)</strong></li></br>  
+
+![exit](https://user-images.githubusercontent.com/47202519/56014051-454cd080-5d11-11e9-9b63-dc2f2ba97381.png)
 
 <li>Command to delete all container.</br>
-<strong>$ docker container prune</strong></li></br>
+<strong>$ docker container prune</strong></li></br>  
+
+![c_purne](https://user-images.githubusercontent.com/47202519/56014072-5695dd00-5d11-11e9-9439-4b44f3c40306.png)
 
 <li>Command to delete all images.</br>
-<strong>$ docker images prune -a</strong></li></br>
+<strong>$ docker images prune -a</strong></li></br> 
+
+![img_prune3](https://user-images.githubusercontent.com/47202519/56014105-7927f600-5d11-11e9-97fb-bc0cd86a0a18.png)
+
+<strong>$ docker images -q</strong></li></br>  
+
+![img_prune2](https://user-images.githubusercontent.com/47202519/56014120-7e854080-5d11-11e9-9f38-8a0184d8de28.png)
+
+<strong>$ docker images prune </strong></li></br>  
+
+![img_prune](https://user-images.githubusercontent.com/47202519/56014138-9230a700-5d11-11e9-8a1f-fac8eb0eb692.png)
 
 <li>Command to delete all container and images. </br>
-<strong>$ docker system prune -a</strong></li></br>
+<strong>$ docker rmi image_id image_id...... </strong></li></br>  
+
+![delt_img](https://user-images.githubusercontent.com/47202519/56014153-9bba0f00-5d11-11e9-804f-97509608c271.png)
+
+<strong>$ docker system prune -a</strong></li></br>  
+
+![system_prune](https://user-images.githubusercontent.com/47202519/56014191-cd32da80-5d11-11e9-97cd-603f5c24f2d1.png)
+
+
 </ol>
