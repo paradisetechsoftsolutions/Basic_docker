@@ -2,7 +2,7 @@
 ## What is docker 
 <ol>
 <li>
-<strong>Docker</strong> is a computer program which used to provide a running environment to run all kinds of application those are in docker hub, or we create in docker.</br>
+<strong>Docker</strong> is a computer program which is used to provide a running environment to run all kinds of application which are in docker hub, or we create in docker.</br>
 It creates an image of your application and stores all requirements of files into the container. Whenever we want to run docker application in any system, we have to run a single file without providing any other requirements.</li></br>
 <li><strong>Docker</strong> is easy to use in <strong>Ubuntu</strong>. It also supports <strong>Window</strong> and <strong>Mac</strong> operating system.</br>
 For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong> only. To use in <strong>Windows7/8/8.1</strong> or <strong>Windows10 home</strong> should use docker toolbox.</li></br>
