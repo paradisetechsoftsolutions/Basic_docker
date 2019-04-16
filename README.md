@@ -82,7 +82,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <li>To check Docker and containers info</br>
 <strong>$ docker info</strong></li></br>
 
-<li>Find out which users are in the docker group and allowed to start docker containers.</li>
+<li>Find out which users are in the docker group and who is allowed to start docker containers.</li>
  <ol>
     <li><strong>$ getent group sudo</strong></li>  
     
@@ -148,7 +148,7 @@ NAMES –  You can specify your own name.</br>  </br>
 
 ### Remove images and containers
 <ol>
-<li>Docker rm command. Just copy the container IDs.</br>
+<li>Docker containers are not automatically removed, firstly stop them, then can use docker rm command. Just copy the container IDs. </br>
  <strong>$ docker rm 419600f601f9 (container_id)</strong></li></br>  
  
  ![rm](https://user-images.githubusercontent.com/47202519/56014043-3cf49580-5d11-11e9-9782-21aaf0961b01.png)
@@ -169,10 +169,7 @@ NAMES –  You can specify your own name.</br>  </br>
 
 ![img_prune3](https://user-images.githubusercontent.com/47202519/56014105-7927f600-5d11-11e9-97fb-bc0cd86a0a18.png)
 
-<strong>$ docker images -q</strong></br>  
-
-![img_prune2](https://user-images.githubusercontent.com/47202519/56014120-7e854080-5d11-11e9-9f38-8a0184d8de28.png)
-
+dangling image is an image that is not tagged and is not used by any container. To remove dangling images type:-</br>
 <strong>$ docker images prune </strong></br>  
 
 ![img_prune](https://user-images.githubusercontent.com/47202519/56014138-9230a700-5d11-11e9-8a1f-fac8eb0eb692.png)
@@ -182,8 +179,8 @@ NAMES –  You can specify your own name.</br>  </br>
 ![delt_img](https://user-images.githubusercontent.com/47202519/56014153-9bba0f00-5d11-11e9-804f-97509608c271.png)</br>
 
 
-<li>Command to delete all container and images. </br>
-
+<li>Removing All Unused Objects. It will remove all stopped containers,all dangling images,and all unused network. </br>
+To remove all images which are not referenced by any existing container, use the -a flag:</br>
 <strong>$ docker system prune -a</strong></li></br>  
 
 ![system_prune](https://user-images.githubusercontent.com/47202519/56014191-cd32da80-5d11-11e9-97cd-603f5c24f2d1.png)
