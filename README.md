@@ -112,7 +112,7 @@ path of docker:- <strong>"Docker Root Dir: /var/lib/docker"</strong></br>
 ![docker_info](https://user-images.githubusercontent.com/47202519/56194375-79e1c480-6050-11e9-92d1-760f360ee7bd.png)
 
 
-commands to check the images:-</br>
+Commands to check the images:-</br>
 <strong>$ cd /var/lib/docker</strong></br>
 <strong>$ ls</strong></br>
 <strong>pardise@pardise-MS-7817:/var/lib/docker$ cd image</strong></br>
@@ -123,7 +123,7 @@ Permission denied for all users</br>
 
 ![path](https://user-images.githubusercontent.com/47202519/56194472-b44b6180-6050-11e9-8c6c-582b605f938c.png)
 
-now docker info command will provide all details about images and containers</br>
+Now docker info command will provide all details about images and containers</br>
 <strong>$root@pardise-MS-7817:/var/lib/docker/image/overlay2# docker info</strong>
 </li>  
 
