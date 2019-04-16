@@ -26,8 +26,8 @@ For <strong>windows</strong>, it runs in <strong>Windows10/enterprise</strong> o
 <ol>
 <li>Just type 'docker' and check if docker is  in your system or not.</br> 
     <strong>$ docker</strong></li> </br>
-<li>To check the version of operating system.</br>
-   <li> <strong>$ lsb_release -a</strong></li></br> 
+<li>To check the version of operating system.</li>
+   <strong>$ lsb_release -a</strong></br> 
    
    ![lsb](https://user-images.githubusercontent.com/47202519/56012407-fd767b00-5d09-11e9-89aa-275c02857584.png)
 
@@ -49,8 +49,8 @@ For <strong>windows</strong>, it runs in <strong>Windows10/enterprise</strong> o
 ## Steps to add user in docker
 <ol>
 <li><strong>Why sudo :-</strong> </br>
-We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'</strong> we have to join the docker group, when your system join docker group after that one can  run docker command without <strong>sudo</strong>.</li></br>
-<li><strong>'USER'</strong> is your system name, command to add user. </br>
+We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'.</strong>We have to join the docker group, when your system join the docker group after that one can run docker command without <strong>sudo</strong>.</li></br>
+<li><strong>'USER'</strong> is your system name, commands to add user as listed below. </br>
 <strong>$user</strong> will pick system user</li>
   <ol>
       <li><strong>$ sudo groupadd docker</strong></li>
@@ -64,7 +64,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
       <li><strong>$ sudo usermod -aG docker $USER </strong></li>
   </ol></br>
         
-<li>After adding a <Operating system (ubuntu)strong>'USER'</strong> into the docker group, we have to <strong>shut down</strong> or <strong>restart</strong> our system and then we can run docker commands without <strong>'sudo'</strong> command.</li></br>  
+<li>After adding a <Operating system (ubuntu)strong>'USER'</strong> into the docker group, we have to <strong>shut down</strong> or <strong>restart</strong> so that we can run docker commands without <strong>'sudo'</strong>.</li></br>  
 
 <li>Command to uninstall docker.</li>
    <strong>$ sudo apt-get remove docker docker-engine docker.io containerd runc</strong></br>
@@ -144,13 +144,13 @@ Now docker info command will provide all details about images and containers</br
 
 <li>List of all containers that one can run. Do notice that the <strong>STATUS</strong> column shows that these containers exited a few minutes ago.</br>
 <strong>$ docker ps -a</strong></li>
-CONTAINER ID – Unique ID given to all the containers.</br>
-IMAGE – Base image from which the container has been started.</br>
-COMMAND – Command which was used when the container was started </br>
-CREATED – Time at which the container was created.</br>
-STATUS – The current status of the container (Up or Exited).</br>
-PORTS – Port numbers if any, forwarded to the docker host for communicating with the external world.</br>
-NAMES – It is a container name, you can specify your own name.</br>  </br>
+<strong>CONTAINER ID</strong> – Unique ID given to all the containers.</br>
+<strong>IMAGE</strong> – Base image from which the container has been started.</br>
+<strong>COMMAND</strong> – Command which was used when the container was started </br>
+<strong>CREATED</strong> – Time at which the container was created.</br>
+<strong>STATUS</strong> – The current status of the container (Up or Exited).</br>
+<strong>PORTS</strong> – Port numbers if any, forwarded to the docker host for communicating with the external world.</br>
+<strong>NAMES</strong> – It is a container name, you can specify your own name.</br>  </br>
 
 ![ps-a](https://user-images.githubusercontent.com/47202519/56013152-0ddc2500-5d0d-11e9-969c-07e0ba4c9bcf.png)
 
@@ -167,10 +167,9 @@ NAMES – It is a container name, you can specify your own name.</br>  </br>
 
 ![stop](https://user-images.githubusercontent.com/47202519/56013171-251b1280-5d0d-11e9-9c0a-d8d20e147ce0.png)
 
-</ol
+</ol>
 
-## Difference between images and containers
-
+<strong>Difference between images and containers</strong></br>
 Docker Image is a set of files which has no state, whereas Docker Container is the abstract of Docker Image. In other words, Docker Container is the run time instance of images.</br>
 
 ### Remove images and containers
@@ -191,7 +190,8 @@ Docker Image is a set of files which has no state, whereas Docker Container is t
 
 ![c_purne](https://user-images.githubusercontent.com/47202519/56014072-5695dd00-5d11-11e9-9439-4b44f3c40306.png)
 
-<li>Command to delete all images.</li>
+<li>Command to delete all images.</br>
+To remove all images which are not referenced by any existing container, not just dangling ones, use the -a flag:</li>
 <strong>$ docker images prune -a</strong></br> 
 
 ![img_prune3](https://user-images.githubusercontent.com/47202519/56014105-7927f600-5d11-11e9-97fb-bc0cd86a0a18.png)
