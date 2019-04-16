@@ -106,8 +106,8 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 ![d_img](https://user-images.githubusercontent.com/47202519/56013130-f9982800-5d0c-11e9-85a2-5ac28156deb0.png)
 
 <li>To find the location of the images in the system we need to follow some commands:-</br>
-<strong>$ docker info<strong></br>
-path of docker:- "Docker Root Dir: /var/lib/docker"</br>  
+<strong>$ docker info</strong></br>
+path of docker:- <strong>"Docker Root Dir: /var/lib/docker"</strong></br>  
 
 ![docker_info](https://user-images.githubusercontent.com/47202519/56194375-79e1c480-6050-11e9-92d1-760f360ee7bd.png)
 
