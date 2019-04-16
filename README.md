@@ -169,6 +169,8 @@ NAMES – It is a container name, you can specify your own name.</br>  </br>
 
 </ol>
   
+### Difference between images and containers
+Docker Image is a set of files which has no state, whereas Docker Container is the instantiation of Docker Image. In other words, Docker Container is the run time instance of images.</br>
 
 ### Remove images and containers
 <ol>
