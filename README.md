@@ -105,6 +105,30 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 ![d_img](https://user-images.githubusercontent.com/47202519/56013130-f9982800-5d0c-11e9-85a2-5ac28156deb0.png)
 
+<li>To find the location of the images in the system we need to follow some commands:-</br>
+<strong>$ docker info<strong></br>
+path of docker:- "Docker Root Dir: /var/lib/docker"</br>  
+
+![docker_info](https://user-images.githubusercontent.com/47202519/56194375-79e1c480-6050-11e9-92d1-760f360ee7bd.png)
+
+
+commands to check the images:-</br>
+<strong>$ cd /var/lib/docker</strong></br>
+<strong>$ ls</strong></br>
+<strong>pardise@pardise-MS-7817:/var/lib/docker$ cd image</strong></br>
+bash: cd: image: Permission denied</br>
+Permission denied for all users</br>
+<strong>$ sudo su</strong></br>
+<strong>$ root@pardise-MS-7817:/var/lib/docker# ls</strong></br>  
+
+![path](https://user-images.githubusercontent.com/47202519/56194472-b44b6180-6050-11e9-8c6c-582b605f938c.png)
+
+now docker info command will provide all details about images and containers</br>
+<strong>$root@pardise-MS-7817:/var/lib/docker/image/overlay2# docker info</strong>
+</li>  
+
+![images](https://user-images.githubusercontent.com/47202519/56194460-ac8bbd00-6050-11e9-9243-27fc5f76992a.png)
+
 <li>Now run a Docker container based on this image. When you call run, the Docker client finds the image (busybox in this case), loads up the container and then runs a command in that container.</br> 
 <strong>$ docker run busybox</strong></li></br>
 
