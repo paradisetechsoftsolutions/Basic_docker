@@ -126,7 +126,7 @@ COMMAND – Command which was used when the container was started </br>
 CREATED – Time at which the container was created.</br>
 STATUS – The current status of the container (Up or Exited).</br>
 PORTS – Port numbers if any, forwarded to the docker host for communicating with the external world.</br>
-NAMES –  You can specify your own name.</br>  </br>
+NAMES – It is a container name, you can specify your own name.</br>  </br>
 
 ![ps-a](https://user-images.githubusercontent.com/47202519/56013152-0ddc2500-5d0d-11e9-969c-07e0ba4c9bcf.png)
 
