@@ -108,9 +108,9 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <li>To find the location of the images in the system we need to follow some commands:-</br>
 <strong>$ docker info</strong></br>
 path of docker:- <strong>"Docker Root Dir: /var/lib/docker"</strong></br>  
-To remove all images which are not referenced by any existing container, not just dangling ones, use the -a flag:
-![docker_info](https://user-images.githubusercontent.com/47202519/56194375-79e1c480-6050-11e9-92d1-760f360ee7bd.png)
+To remove all images which are not referenced by any existing container, not just dangling ones, use the -a flag:</br>  
 
+![docker_info](https://user-images.githubusercontent.com/47202519/56194375-79e1c480-6050-11e9-92d1-760f360ee7bd.png)
 
 Commands to check the images:-</br>
 <strong>$ cd /var/lib/docker</strong></br>
