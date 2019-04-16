@@ -2,10 +2,10 @@
 ## What is docker 
 <ol>
 <li>
-<strong>Docker</strong> is a computer program which is used to provide a running environment to run all kinds of application which are in docker hub, or create in docker.</br>
+<strong>Docker</strong> is a computer program which is used to provide a running environment to run all kinds of application which are in docker hub, or created in docker.</br>
 It creates an image of your application and stores all requirements of files into the container. Whenever we want to run docker application in any system, we have to run a single file without providing any other requirements.</li></br>
 <li><strong>Docker</strong> is easy to use in <strong>Ubuntu</strong>. It also supports <strong>Window</strong> and <strong>Mac</strong> operating system.</br>
-For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong> only. To use in <strong>Windows7/8/8.1</strong> or <strong>Windows10 home</strong> should use docker toolbox.</li></br>
+For <strong>windows</strong>, it runs in <strong>Windows10/enterprise</strong> only. To use in <strong>Windows7/8/8.1</strong> or <strong>Windows10 home</strong> should use docker toolbox.</li></br>
 <li>There are two kind of docker software for programmers.</li>
 <ol>
 <li><strong>Docker CE</strong> :- <strong>Free community edition</strong> :- This is an open source software. </li>
@@ -32,9 +32,9 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
    ![lsb](https://user-images.githubusercontent.com/47202519/56012407-fd767b00-5d09-11e9-89aa-275c02857584.png)
 
  
-<li>update the apt package index.</br>
+<li>Update the apt package index.</br>
     <strong>$ sudo apt-get update</strong></li></br>
-<li>If require then install. </br>
+<li>If requireS, then install. </br>
     <strong>$ sudo apt-get install </strong></li></br>
 <li>If docker is not in your system then install it. </br>
     <strong>$ sudo apt-get install docker.io</strong></li></br>
