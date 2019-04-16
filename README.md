@@ -49,7 +49,7 @@ For <strong>windows</strong>, it runs in <strong>Windows10/enterprise</strong> o
 ## Steps to add user in docker
 <ol>
 <li><strong>Why sudo :-</strong> </br>
-We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'.</strong>We have to join the docker group, when your system join the docker group after that one can run docker command without <strong>sudo</strong>.</li></br>
+We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'.</strong> We have to join the docker group, when your system join the docker group after that one can run docker command without <strong>sudo</strong>.</li></br>
 <li><strong>'USER'</strong> is your system name, commands to add user as listed below. </br>
 <strong>$user</strong> will pick system user</li>
   <ol>
@@ -108,7 +108,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 <li>To find the location of the images in the system we need to follow some commands:-</br>
 <strong>$ docker info</strong></br>
 path of docker:- <strong>"Docker Root Dir: /var/lib/docker"</strong></br>  
-
+To remove all images which are not referenced by any existing container, not just dangling ones, use the -a flag:
 ![docker_info](https://user-images.githubusercontent.com/47202519/56194375-79e1c480-6050-11e9-92d1-760f360ee7bd.png)
 
 
