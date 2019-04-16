@@ -2,7 +2,7 @@
 ## What is docker 
 <ol>
 <li>
-<strong>Docker</strong> is a computer program which is used to provide a running environment to run all kinds of application which are in docker hub, or we create in docker.</br>
+<strong>Docker</strong> is a computer program which is used to provide a running environment to run all kinds of application which are in docker hub, or create in docker.</br>
 It creates an image of your application and stores all requirements of files into the container. Whenever we want to run docker application in any system, we have to run a single file without providing any other requirements.</li></br>
 <li><strong>Docker</strong> is easy to use in <strong>Ubuntu</strong>. It also supports <strong>Window</strong> and <strong>Mac</strong> operating system.</br>
 For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong> only. To use in <strong>Windows7/8/8.1</strong> or <strong>Windows10 home</strong> should use docker toolbox.</li></br>
@@ -49,7 +49,7 @@ For the <strong>window</strong>, it runs in <strong>Windows10/enterprise</strong
 ## Steps to add user in docker
 <ol>
 <li><strong>Why sudo :-</strong> </br>
-We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'</strong> we have to join the docker group, when your system join docker group after that we can  run docker command without <strong>sudo</strong>.</li></br>
+We have to use <strong>'sudo'</strong> command to run docker commands because docker container run  <strong>user 'root'</strong> we have to join the docker group, when your system join docker group after that one can  run docker command without <strong>sudo</strong>.</li></br>
 <li><strong>'USER'</strong> is your system name, command to add user. </br>
 <strong>$user</strong> will pick system user</li>
   <ol>
@@ -118,8 +118,15 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 ![ps](https://user-images.githubusercontent.com/47202519/56013147-0ae13480-5d0d-11e9-83a4-33e6856239a7.png)
 
-<li>list of all containers that we ran. Do notice that the <strong>STATUS</strong> column shows that these containers exited a few minutes ago.</br>
-<strong>$ docker ps -a</strong></li></br>  
+<li>List of all containers that one can run. Do notice that the <strong>STATUS</strong> column shows that these containers exited a few minutes ago.</br>
+<strong>$ docker ps -a</strong></li>
+CONTAINER ID – Unique ID given to all the containers.</br>
+IMAGE – Base image from which the container has been started.</br>
+COMMAND – Command which was used when the container was started </br>
+CREATED – Time at which the container was created.</br>
+STATUS – The current status of the container (Up or Exited).</br>
+PORTS – Port numbers if any, forwarded to the docker host for communicating with the external world.</br>
+NAMES –  You can specify your own name.</br>  
 
 ![ps-a](https://user-images.githubusercontent.com/47202519/56013152-0ddc2500-5d0d-11e9-969c-07e0ba4c9bcf.png)
 
@@ -141,7 +148,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 ### Remove images and containers
 <ol>
-<li>docker rm command. Just copy the container IDs.</br>
+<li>Docker rm command. Just copy the container IDs.</br>
  <strong>$ docker rm 419600f601f9 (container_id)</strong></li></br>  
  
  ![rm](https://user-images.githubusercontent.com/47202519/56014043-3cf49580-5d11-11e9-9782-21aaf0961b01.png)
