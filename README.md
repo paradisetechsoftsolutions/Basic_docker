@@ -32,9 +32,9 @@ For <strong>windows</strong>, it runs in <strong>Windows10/enterprise</strong> o
     <strong>$ docker</strong></li> </br>
 <li>To check the version of operating system. To install Docker CE, we need the 64-bit version of one of these Ubuntu versions:</li>
 <ol>
-Cosmic 18.10
-Bionic 18.04 (LTS)
-Xenial 16.04 (LTS)
+<li>Cosmic 18.10</li>
+<li>Bionic 18.04 (LTS)<li>
+<li>Xenial 16.04 (LTS)<li>
 </ol>
    <strong>$ lsb_release -a</strong></br> 
    
