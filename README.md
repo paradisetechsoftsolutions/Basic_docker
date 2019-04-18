@@ -30,7 +30,12 @@ For <strong>windows</strong>, it runs in <strong>Windows10/enterprise</strong> o
 <ol>
 <li>Just type 'docker' and check if docker is  in your system or not.</br> 
     <strong>$ docker</strong></li> </br>
-<li>To check the version of operating system.</li>
+<li>To check the version of operating system. To install Docker CE, we need the 64-bit version of one of these Ubuntu versions:</li>
+<ol>
+Cosmic 18.10
+Bionic 18.04 (LTS)
+Xenial 16.04 (LTS)
+</ol>
    <strong>$ lsb_release -a</strong></br> 
    
    ![lsb](https://user-images.githubusercontent.com/47202519/56012407-fd767b00-5d09-11e9-89aa-275c02857584.png)
@@ -38,7 +43,7 @@ For <strong>windows</strong>, it runs in <strong>Windows10/enterprise</strong> o
  
 <li>Update the apt package index.</br>
     <strong>$ sudo apt-get update</strong></li></br>
-<li>If requireS, then install. </br>
+<li>If requires, then install. </br>
     <strong>$ sudo apt-get install </strong></li></br>
 <li>If docker is not in your system then install it. </br>
     <strong>$ sudo apt-get install docker.io</strong></li></br>
@@ -111,8 +116,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
 
 <li>To find the location of the images in the system we need to follow some commands:-</br>
 <strong>$ docker info</strong></br>
-path of docker:- <strong>"Docker Root Dir: /var/lib/docker"</strong></br>  
-To remove all images which are not referenced by any existing container, not just dangling ones, use the -a flag:</br>  
+path of docker:- <strong>"Docker Root Dir: /var/lib/docker"</strong></br>    
 
 ![docker_info](https://user-images.githubusercontent.com/47202519/56194375-79e1c480-6050-11e9-92d1-760f360ee7bd.png)
 
@@ -210,7 +214,7 @@ dangling image is an image that is not tagged and is not used by any container. 
 ![delt_img](https://user-images.githubusercontent.com/47202519/56014153-9bba0f00-5d11-11e9-804f-97509608c271.png)</br>
 
 
-<li>Removing All Unused Objects. It will remove all stopped containers,all dangling images,and all unused network. </br>
+<li>Removing all Unused Objects. It will remove all stopped containers,all dangling images,and all unused network. </br>
 To remove all images which are not referenced by any existing container, use the -a flag:</br>
 <strong>$ docker system prune -a</strong></li></br>  
 
