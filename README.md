@@ -68,6 +68,7 @@ We have to use <strong>'sudo'</strong> command to run docker commands because do
   </ol></br>
     
 <li>Second way to add user in docker group.</li>
+
   <ol>
       <li><strong>$ sudo groupadd docker</strong></li>
       <li><strong>$ sudo usermod -aG docker $USER </strong></li>
