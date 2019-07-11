@@ -177,6 +177,7 @@ Now docker info command will provide all details about images and containers</br
 ![stop](https://user-images.githubusercontent.com/47202519/56013171-251b1280-5d0d-11e9-9c0a-d8d20e147ce0.png)
 
 </ol>
+Thank you
 
 <strong>Difference between images and containers</strong></br>
 Docker Image is a set of files which has no state, whereas Docker Container is the abstract of Docker Image. In other words, Docker Container is the run time instance of images.</br>
