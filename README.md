@@ -224,5 +224,18 @@ To remove all images which are not referenced by any existing container, use the
 
 </ol>
 
+### Install Compose on Linux systems    
+<ol>
+Run this command to download the Docker Compose:</br>
+<strong> $ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose</strong></br>
+
+executable permissions to the binary:</br>
+
+<strong>sudo chmod +x /usr/local/bin/docker-compose </strong></br>
+Command to check docker-compose version</br>
+<strong> $ docker-compose --version </strong></br>
+  
+</ol>    
+
 ## In next README file we will discuss about docker database(MYSQL & phpmyadmin)</br>
 https://github.com/amit-kumar001/Docker_connection_with_MYSQL
